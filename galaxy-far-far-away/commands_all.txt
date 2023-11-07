@@ -1,3 +1,52 @@
+
+fille@DESKTOP-4JS80HJ MINGW64 ~
+$ cd Desktop
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop
+$ git clone https://github.com/EsserMishelle/2023-10-NCR-WISE.git
+Cloning into '2023-10-NCR-WISE'...
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Total 5 (delta 0), reused 5 (delta 0), pack-reused 0
+Receiving objects: 100% (5/5), done.
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop
+$ ls
+'1z0-071 Exam – Free Actual Q&As, Page 14 ExamTopics.URL'
+ 20170528_122825.jpg
+ 2023-10-NCR-WISE/
+ 2_JOHN.DP
+'CS admin'/
+'Dec 2022'/
+ Discord.lnk*
+ Garmin/
+'M - Chrome.lnk'*
+ Paypal/
+ Postman.lnk*
+ ReactPorcello/
+'Roblox Player.lnk'*
+'Roblox Studio.lnk'*
+ S22+/
+'SQL Shell (psql).lnk'*
+'Screenshot 2023-06-07 104453-CS TI.jpg'
+'Screenshot 2023-06-07 104453-CS TI_1.jpg'
+'Screenshot 2023-06-08 111425-sono.jpg'
+'Screenshot 2023-06-08 124519 sono .jpg'
+ Slack.lnk*
+'Swim pool'/
+'Visual Studio Code (2).lnk'*
+'Visual Studio Code.lnk'*
+ Zoom.lnk*
+ desktop.ini
+ holygrail.jpg
+'music teacher suggestions.jpg'
+ southwest/
+'visual basic code.png'
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop
+$ cd 2
+20170528_122825.jpg  2023-10-NCR-WISE/    2_JOHN.DP
+
 fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop
 $ cd 2023-10-NCR-WISE/
 
@@ -7,13 +56,13 @@ $ mkdir galaxy-far-far-away
 fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE (main)
 $ cd galaxy-far-far-away/
 
-fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-fain)
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
 $ touch commands.txt
 
-fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-fain)
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
 $ code commands.txt
 
-fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-fain)
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
 $ mkdir death_star cd death_star
 mkdir: cannot create directory ‘death_star’: File exists
 
@@ -28,7 +77,6 @@ fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (ma
 $ cd death_star
 
 fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star (main)
-
 $ touch darth_vader.txt princess_leia.txt storm_trooper.txt
 
 fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star (main)
@@ -88,6 +136,51 @@ fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (ma
 $ cd death_star/
 
 fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star (main)
+$ mv princess_leia.txt fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star (main)
+$ cd ../tatooine/
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/tatooine (main)
+$ mv luke.txt ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/tatooine/millenium_falcon/      
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/tatooine (main)
+$ mv obi_wan.txt ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/tatooine/millenium_falcon/   
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/tatooine (main)
+$ cd ..
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
+$ cd tatooine/
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/tatooine (main)
+$ mv millenium_falcon ../
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/tatooine (main)
+$ cd ..
+
+$ mv millenium_falcon ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_starain)
+bash: syntax error near unexpected token `('
+bash: $: command not found
+
+bash: syntax error near unexpected token `('
+
+
+
+
+
+
+bash: $: command not found
+bash: syntax error near unexpected token `('
+bash: $: command not found
+bash: syntax error near unexpected token `('
+bash: $: command not found
+bash: syntax error near unexpected token `('
+bash: $: command not found
+bash: syntax error near unexpected token `('
+bash: $: command not found
+bash: syntax error near unexpected token `('
+bash: $: command not found
+bash: syntax error near unexpected token `('
+bash: $: command not found
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star (main)
 $ mv princess_leia.txt ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star/millenium_falcon/
 
 fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star (main)
@@ -98,6 +191,10 @@ $ rm obi_wan.txt
 
 fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star/millenium_falcon (main)
 $ cd ..
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star (main)
+$ cd..
+bash: cd..: command not found
 
 fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star (main)
 $ cd ..
@@ -112,7 +209,16 @@ fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/dea
 $ mv millenium_falcon ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/yavin_4
 
 fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star (main)
-$ cd ../yavin_4
+$ mkdir x_wing
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star (main)
+$ cd ../yavin_4/millenium_falcon/
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/yavin_4/millenium_falcon (main)
+$ mv princess_leia.txt ../
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/yavin_4/millenium_falcon (main)
+$ cd ..
 
 fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/yavin_4 (main)
 $ mkdir x_wing
@@ -121,10 +227,10 @@ fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/yav
 $ cd millenium_falcon/
 
 fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/yavin_4/millenium_falcon (main)
-$ mv princess_leia.txt ../
+$ mv luke.txt ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/yavin_4/x_wing/
 
 fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/yavin_4/millenium_falcon (main)
-$ mv luke.txt ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/yavin_4/x_wing/
+$ cd ..
 
 fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/yavin_4 (main)
 $ mv millenium_falcon ../
@@ -137,6 +243,9 @@ $ cd ../death_star
 
 fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star (main)
 $ mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star (main)
+$ mv darth_vader.txt /tie_fighter_1
 
 fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star (main)
 $ mv darth_vader ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star/tie_fighter_1
@@ -152,7 +261,19 @@ fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/dea
 $ cp storm_trooper.txt ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star/tie_fighter_3
 
 fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star (main)
+$ mv -r t* ../
+mv: unknown option -- r
+Try 'mv --help' for more information.
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star (main)
 $ mv t* ../
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/death_star (main)
+$ cd ..
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
+$ rm -r tie_figher_2
+rm: cannot remove 'tie_figher_2': No such file or directory
 
 fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
 $ rm -r tie_fighter_2
@@ -177,3 +298,77 @@ $ mv x_wing ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/yavin_4
 
 fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
 $ mv millenium_falcon ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away/yavin_4
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
+$ git add -A
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
+$ git commit -m "Completed lab"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'fille@DESKTOP-4JS80HJ.(none)')
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
+$ git config --global user.email "essermishelle@gmail.com"
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
+$ git push origin main
+Everything up-to-date
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
+$ git push origin main
+Everything up-to-date
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
+$ git config --global usre.name "EsserMishelle"
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
+$ git push origin main
+Everything up-to-date
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
+$ git add -A
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
+$ git commit -m "Completed lab"
+[main 40a46af] Completed lab
+ 8 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 galaxy-far-far-away/commands.txt
+ create mode 100644 galaxy-far-far-away/tatooine/storm_trooper.txt
+ create mode 100644 galaxy-far-far-away/tie_fighter_1/darth_vader.txt
+ create mode 100644 galaxy-far-far-away/yavin_4/millenium_falcon/chewbaca.txt
+ create mode 100644 galaxy-far-far-away/yavin_4/millenium_falcon/han_solo.txt
+ create mode 100644 galaxy-far-far-away/yavin_4/princess_leia.txt
+ create mode 100644 galaxy-far-far-away/yavin_4/x_wing/luke.txt
+ create mode 100644 galaxy-far-far-away/yavin_4/x_wing/the_force.txt
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
+$ git push origin master
+bash: $'\302\230git': command not found
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
+$ git push origin main
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (9/9), 797 bytes | 113.00 KiB/s, done.
+Total 9 (delta 0), reused 1 (delta 0), pack-reused 0
+To https://github.com/EsserMishelle/2023-10-NCR-WISE.git
+   70724ae..40a46af  main -> main
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
+$ ^C
+
+fille@DESKTOP-4JS80HJ MINGW64 ~/Desktop/2023-10-NCR-WISE/galaxy-far-far-away (main)
+$

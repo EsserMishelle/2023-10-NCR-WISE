@@ -236,3 +236,60 @@ console.log(timmy)
 //   hamsters: [ 'Gus', 'Chunky' ],
 //   bankAccount: 128
 // }
+
+/*****************/
+
+// Chef should be a factory of Dinner
+// Add a constructor to dinner that sets the string properties, appetizer, entree and dessert.
+// Add a method on chef that takes three arguments and returns a new Dinner based on those arguments.
+// Have the Chef create 3 dinners, log the dinners
+
+class Dinner {
+    constructor(name, appetizer, entree, dessert) {
+      this.name = name;
+      this.appetizer = appetizer;
+      this.entree = entree;
+      this.dessert = dessert;
+      }
+  }
+  
+  class Chef {
+    constructor(name, cuisine){ //essentially a factory to churn up dinners
+      this.name = name
+      this.cuisine = cuisine;
+      this.dinners = [];
+    }
+    makeMeal(dinner){
+      this.dinners.push(dinner.name);
+      console.log (`Chef ${this.name} is making a ${this.cuisine} '${dinner.name}' cuisine with ${dinner.appetizer}, ${dinner.entree}, and ${dinner.dessert}\n`)
+      }
+    // makeMeal(appetizer, entree, dessert){
+    // this.dinners.push(dinner);
+    // console.log (`${this.name} is making a ${this.cuisine} cuisine with ${appetizer}, ${entree}, and ${dessert}`)
+    // }
+  
+    
+  
+    tvAd() {
+      console.log (`Don't forget to tune in to watch ${this.cuisine} chef, ${this.name}, who is famous making ${this.dinners}\n`)
+    }
+    
+  }
+  
+  const tuscanyLove = new Dinner('Tuscany Love', 'Roasted Eggplant', 'ravioli', 'Tiramisu')
+  const cinqueTerreBreeze = new Dinner('Cinque Terre Breeze','Stuff Mussels', 'Melanzane alla Parmigiana', 'Gelato')
+  const melanoNight  = new Dinner('Melano Night','Fried Mozzarella', 'Vitello Tonnato', 'Cannoli')
+  
+  const chefMishelle = new Chef('Mishelle', 'Italian')
+  
+  chefMishelle.makeMeal(tuscanyLove)
+  //Chef Mishelle is making a Italian 'Tuscany Love' cuisine with Roasted Eggplant, ravioli, and Tiramisu
+  chefMishelle.makeMeal(cinqueTerreBreeze) 
+  //Chef Mishelle is making a Italian 'Cinque Terre Breeze' cuisine with Stuff Mussels, Melanzane alla Parmigiana, and Gelato
+  chefMishelle.makeMeal(melanoNight) 
+  // Chef Mishelle is making a Italian 'Melano Night' cuisine with Fried Mozzarella, Vitello Tonnato, and Cannoli
+  
+  console.log(chefMishelle.dinners)//[ 'Tuscany Love', 'Cinque Terre Breeze', 'Melano Night' ]
+  chefMishelle.tvAd()
+  //Don't forget to tune in to watch Italian chef, Mishelle, who is famous making Tuscany Love,Cinque Terre Breeze,Melano Night  
+  

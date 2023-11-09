@@ -104,3 +104,135 @@ class Person {
     }
   }
   
+  ///*1) Instantiate a new Person named Timmy
+const timmy = new Person ('Timmy');///instiating the timmy person
+console.log(timmy);
+//Person {
+//   name: 'Timmy',
+//   age: 0,
+//   height: 0,
+//   weight: 0,
+//   mood: 0,
+//   hamsters: [],
+//   bankAccount: 0
+// }
+
+timmy.ageUp();////2)aging Timmy to 5 years old
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+console.log(timmy);
+// Person {
+// name: 'Timmy',
+// age: 5,
+// height: 5,
+// weight: 5,
+// mood: -5,
+// hamsters: [],
+// bankAccount: 50
+// }
+
+//3)At this point Timmy's a little bummed. As a precocious child, he feels he's "seen it all" already. Have him eat five times.
+timmy.eat();
+timmy.eat();
+timmy.eat();
+timmy.eat();
+timmy.eat();
+console.log(timmy);
+// Person {
+//   name: 'Timmy',
+//   age: 5,
+//   height: 5,
+//   weight: 10,
+//   mood: 0,
+//   hamsters: [],
+//   bankAccount: 50
+// }
+
+//Now Timmy's a little heavier than he wants to be. Kindergarten's coming up and he wants to look good. Have him exercise five times
+
+timmy.exercise();//Timmy exercises 5 times
+timmy.exercise();
+timmy.exercise();
+timmy.exercise();
+timmy.exercise();
+console.log(timmy);
+// Person {
+//   name: 'Timmy',
+//   age: 5,
+//   height: 5,
+//   weight: 5,
+//   mood: 0,
+//   hamsters: [],
+//   bankAccount: 50
+// }
+
+
+timmy.ageUp(); //Age Timmy 9 years
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+console.log(timmy);
+// Person {
+//   name: 'Timmy',
+//   age: 9,
+//   height: 9,
+//   weight: 9,
+//   mood: -4,
+//   hamsters: [],
+//   bankAccount: 90
+// }
+console.log(timmy.bankAccount); //90
+
+
+//Create a hamster named "Gus"
+const gus = new Hamster('Timmy', 'Gus', 20) ;//instantiate Gus the hamster
+console.log(gus);//Hamster{owner:'',name:'Gus',price:15}--owner/price not updated
+gus.owner = 'Timmy';//Set Gus's owner to the string "Timmy"
+
+console.log(gus.owner)//Timmy -- explicitely reassigning the owner
+console.log(gus.price)//15 -- we didn't change it, so it's default $15
+
+timmy.buyHamster(gus);//Timmy buys Gus. Money's subtracted from bank acct
+console.log(timmy.hamsters)//['Gus']
+console.log(timmy.bankAccount)//75
+
+timmy.ageUp();//Age Timmy 15 years
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+timmy.ageUp();
+
+timmy.eat();//Have Timmy eat twice
+timmy.eat();
+
+timmy.exercise();//Have Timmy exercise twice
+timmy.exercise();
+
+console.log(timmy);
+// //Person {
+//   name: 'Timmy',
+//   age: 15,
+//   height: 15,
+//   weight: 15,
+//   mood: 2,
+//   hamsters: [ 'Gus' ],
+//   bankAccount: 135
+// }
+
+timmy.buyHamster(chunky);  //buys Chunky from Mishelle. Gave a discount
+console.log(timmy.hamsters)//[ 'Gus', 'Chunky' ]
+console.log(timmy.bankAccount) //128
+
+console.log(timmy)
+// Person {
+//   name: 'Timmy',
+//   age: 15,
+//   height: 15,
+//   weight: 15,
+//   mood: 12,
+//   hamsters: [ 'Gus', 'Chunky' ],
+//   bankAccount: 128
+// }
